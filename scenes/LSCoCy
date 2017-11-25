@@ -1,0 +1,33 @@
+Camera
+{
+	pos:(0, 0, 10000)
+	dir:(0, 0, -1)
+}
+Light
+{
+	pos:(40, -140, 10000)
+	rgb:(255, 255, 255)
+}
+Sphere
+{
+	pos:(-200, -200, 500)
+	rgb:(255, 0, 0)
+	radius: 100
+	reflect: 20
+}
+Cone
+{
+	pos:(0, -200, 500)
+	rgb:(0, 255, 0)
+	dir:(0, 1, 0)
+	size: 100
+	reflect: 70
+}
+Cylinder
+{
+	pos:(200, 0, 500)
+	rgb:(0, 0, 255)
+	dir:(0, 1, 0)
+	size: 100
+	reflect: 70
+}
